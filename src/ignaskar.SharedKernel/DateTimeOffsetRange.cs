@@ -17,7 +17,45 @@ namespace ignaskar.SharedKernel
             End = end;
         }
 
-        // TODO: Add factory methods
+        public DateTimeOffsetRange(DateTimeOffset start, TimeSpan duration) : this(start, start.Add(duration))
+        {
+        }
+
+        public int DurationInMinutes()
+        {
+            return (int)Math.Round((End - Start).TotalMinutes, 0);
+        }
+
+        public DateTimeOffsetRange NewDuration(TimeSpan newDuration)
+        {
+            return new DateTimeOffsetRange(Start, newDuration);
+        }
+
+        public DateTimeOffsetRange NewEnd(DateTimeOffset newEnd)
+        {
+            return new DateTimeOffsetRange(Start, newEnd);
+        }
+
+        public DateTimeOffsetRange NewStart(DateTimeOffset newStart)
+        {
+            return new DateTimeOffsetRange(newStart, End);
+        }
+
+        public static DateTimeOffsetRange CreateOneDayRange(DateTimeOffset day)
+        {
+            return new DateTimeOffsetRange(day, day.AddDays(1));
+        }
+
+        public static DateTimeOffsetRange CreateOneWeekRange(DateTimeOffset startDay)
+        {
+            return new DateTimeOffsetRange(startDay, startDay.AddDays(7));
+        }
+
+        public bool Overlaps(DateTimeOffsetRange dateTimeRange)
+        {
+            return Start < dateTimeRange.End &&
+                   End > dateTimeRange.End;
+        }
         
         protected override IEnumerable<object> GetEqualityComponents()
         {
