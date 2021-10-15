@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using Ardalis.GuardClauses;
 
-namespace ignaskar.SharedKernel.Guards
+namespace FSight.SharedKernel.Guards
 {
     public static class CustomGuards
     {

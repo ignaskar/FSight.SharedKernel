@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace ignaskar.SharedKernel
+namespace FSight.SharedKernel
 {
     /// <summary>
     /// See: https://enterprisecraftsmanship.com/posts/value-object-better-implementation/

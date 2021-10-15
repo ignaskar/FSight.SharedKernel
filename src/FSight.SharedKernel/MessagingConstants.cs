@@ -1,4 +1,4 @@
-namespace ignaskar.SharedKernel
+namespace FSight.SharedKernel
 {
     public static class MessagingConstants
     {

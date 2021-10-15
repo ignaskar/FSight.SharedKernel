@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace ignaskar.SharedKernel
+namespace FSight.SharedKernel
 {
     /// <summary>
     /// Base types for all Entities which track state using a given Id.

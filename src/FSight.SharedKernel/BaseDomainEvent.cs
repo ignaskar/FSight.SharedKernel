@@ -1,7 +1,7 @@
 using System;
 using MediatR;
 
-namespace ignaskar.SharedKernel
+namespace FSight.SharedKernel
 {
     public abstract class BaseDomainEvent : INotification
     {

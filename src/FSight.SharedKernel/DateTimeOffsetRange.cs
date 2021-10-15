@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 using Ardalis.GuardClauses;
-using ignaskar.SharedKernel.Guards;
+using FSight.SharedKernel.Guards;
 
-namespace ignaskar.SharedKernel
+namespace FSight.SharedKernel
 {
     public class DateTimeOffsetRange : ValueObject
     {

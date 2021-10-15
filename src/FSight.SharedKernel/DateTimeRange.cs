@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using Ardalis.GuardClauses;
 
-namespace ignaskar.SharedKernel
+namespace FSight.SharedKernel
 {
     public class DateTimeRange : ValueObject
     {
@@ -40,12 +40,12 @@ namespace ignaskar.SharedKernel
             return new DateTimeRange(newStart, End);
         }
 
-        public DateTimeRange CreateOneDayRange(DateTime day)
+        public static DateTimeRange CreateOneDayRange(DateTime day)
         {
             return new DateTimeRange(day, day.AddDays(1));
         }
 
-        public DateTimeRange CreateOneWeekRange(DateTime startDay)
+        public static DateTimeRange CreateOneWeekRange(DateTime startDay)
         {
             return new DateTimeRange(startDay, startDay.AddDays(7));
         }

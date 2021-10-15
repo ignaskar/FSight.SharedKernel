@@ -2,7 +2,11 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D6A378D7-ED7B-4808-B5AB-890542822322}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ignaskar.SharedKernel", "src\ignaskar.SharedKernel\ignaskar.SharedKernel.csproj", "{B1F3C4E4-ABCC-406A-AC49-CCC604987882}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSight.SharedKernel", "src\FSight.SharedKernel\FSight.SharedKernel.csproj", "{B1F3C4E4-ABCC-406A-AC49-CCC604987882}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{6241455E-B2AA-46AA-8482-C022D527AB30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSight.SharedKernel.UnitTests", "tests\FSight.SharedKernel.UnitTests\FSight.SharedKernel.UnitTests.csproj", "{76ED11BD-4DF4-4FEA-869A-FE2070F14D1B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,11 +15,16 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B1F3C4E4-ABCC-406A-AC49-CCC604987882} = {D6A378D7-ED7B-4808-B5AB-890542822322}
+		{76ED11BD-4DF4-4FEA-869A-FE2070F14D1B} = {6241455E-B2AA-46AA-8482-C022D527AB30}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{B1F3C4E4-ABCC-406A-AC49-CCC604987882}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B1F3C4E4-ABCC-406A-AC49-CCC604987882}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1F3C4E4-ABCC-406A-AC49-CCC604987882}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1F3C4E4-ABCC-406A-AC49-CCC604987882}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76ED11BD-4DF4-4FEA-869A-FE2070F14D1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76ED11BD-4DF4-4FEA-869A-FE2070F14D1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76ED11BD-4DF4-4FEA-869A-FE2070F14D1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76ED11BD-4DF4-4FEA-869A-FE2070F14D1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
