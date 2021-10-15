@@ -42,7 +42,7 @@ namespace FSight.SharedKernel
             return _cachedHashCode.Value;
         }
 
-        public int CompareTo(object? obj)
+        public int CompareTo(object obj)
         {
             var thisType = GetUnproxiedType(this);
             var otherType = GetUnproxiedType(obj);

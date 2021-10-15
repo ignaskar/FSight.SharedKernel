@@ -8,7 +8,7 @@
         <Description>A shared kernel package used by fSight incident management platform.</Description>
         <PackageProjectUrl>https://github.com/ignaskar/FSight.SharedKernel</PackageProjectUrl>
         <RepositoryUrl>https://github.com/ignaskar/FSight.SharedKernel</RepositoryUrl>
-        <Version>1.0.0</Version>
+        <Version>1.0.1</Version>
     </PropertyGroup>
 
     <ItemGroup>
