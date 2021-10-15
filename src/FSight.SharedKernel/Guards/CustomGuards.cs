@@ -4,7 +4,6 @@ using Ardalis.GuardClauses;
 
 namespace FSight.SharedKernel.Guards
 {
-    // Ardalis.GuardClauses supports custom guards that we can implement
     public static class CustomGuards
     {
         public static DateTimeOffset OutOfRange(
