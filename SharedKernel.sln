@@ -8,6 +8,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{6241455E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSight.SharedKernel.UnitTests", "tests\FSight.SharedKernel.UnitTests\FSight.SharedKernel.UnitTests.csproj", "{76ED11BD-4DF4-4FEA-869A-FE2070F14D1B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{C89E0B8F-58C9-4D06-ADA5-3C5C8C7CA32D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{FBBEDB66-C56E-413E-8923-CEE6DC7C11EA}"
+ProjectSection(SolutionItems) = preProject
+	.github\workflows\build.yml = .github\workflows\build.yml
+	.github\workflows\codeql-analysis.yml = .github\workflows\codeql-analysis.yml
+	.github\workflows\publish.yml = .github\workflows\publish.yml
+EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -16,6 +25,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{B1F3C4E4-ABCC-406A-AC49-CCC604987882} = {D6A378D7-ED7B-4808-B5AB-890542822322}
 		{76ED11BD-4DF4-4FEA-869A-FE2070F14D1B} = {6241455E-B2AA-46AA-8482-C022D527AB30}
+		{FBBEDB66-C56E-413E-8923-CEE6DC7C11EA} = {C89E0B8F-58C9-4D06-ADA5-3C5C8C7CA32D}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{B1F3C4E4-ABCC-406A-AC49-CCC604987882}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
